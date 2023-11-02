@@ -47,6 +47,7 @@ public class PublishMessage : Unit
             {
 
                 mqttClient.PublishMessage(topic, message);
+                Debug.Log("Message published: " + message + " on this topic " + topic);
             }
         }
 
