@@ -11,6 +11,8 @@ TagManager:
   - Setup
   - TrainARObject
   - AR_Interactable
+  - client
+  - debug
   layers:
   - Default
   - TransparentFX
